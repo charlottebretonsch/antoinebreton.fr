@@ -1,0 +1,28 @@
+/* - - - - CUSTOM - - - - */
+/* VARIABLES */
+/* APPLICATION */
+body {
+  color: #333;
+}
+.menu {
+  background: #222;
+}
+.heading {
+  background: #333;
+}
+.alert {
+  color: #29abe2;
+  background: #d4eef9;
+}
+button,
+a.btn {
+  background-color: #29abe2;
+}
+button:hover,
+a.btn:hover {
+  background-color: #1d9dd4;
+}
+.menu a.btn:hover,
+.menu a.btn.selected {
+  background-color: #333;
+}

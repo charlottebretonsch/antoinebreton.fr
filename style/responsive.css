@@ -1,0 +1,15 @@
+@media screen and (max-width: 640px) {
+  .container,
+  .header {
+  	width: 100%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .project-glimpse{
+    width: 100%;
+  }
+  .logo, #navigation {
+    width: 100%;
+  }
+}
