@@ -25,9 +25,11 @@ a {
   color: inherit;
   cursor: pointer;
 }
-#navigation a,
 .link {
-  text-decoration: underline;
+  border-bottom: 1px solid transparent !important;
+}
+.link:hover {
+  border-bottom: 1px solid #000 !important;
 }
 .clearfix {
   clear: both;
@@ -45,8 +47,8 @@ a {
 .header {
   width: 100%;
   padding: 20px 0 20px 0;
-  border-bottom: 1px solid #000;
-  background: #fff;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  background: rgba(255,255,255,0.9);
   position: fixed;
   top: 0;
   z-index: 15;
@@ -58,6 +60,7 @@ a {
 }
 .container {
   margin-top: 120px;
+  margin-bottom: 80px;
 }
 .row,
 .logo,
@@ -72,10 +75,8 @@ li {
 li {
   float: right;
 }
-.separator {
-  width: 100%;
-  background: #000;
-  height: 1px;
+.text-area {
+  padding: 5px;
 }
 /* Project glimpse */
 .project-glimpse {
@@ -118,10 +119,21 @@ li {
 .project-glimpse h4 {
   color: rgba(255,255,255,0.6) !important;
 }
-/* - - - - TYPO - - - - */
-.text-area {
+/* Project page */
+.project-title {
   padding: 5px;
 }
+.project-title h4 {
+  color: rgba(0,0,0,0.6);
+}
+img.horizontal {
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+.image-area {
+  padding: 10px;
+}
+/* - - - - TYPO - - - - */
 h1,
 h2,
 h3,
