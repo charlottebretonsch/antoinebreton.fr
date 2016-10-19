@@ -147,6 +147,12 @@ img {
 .image-area img {
   width: 100%;
 }
+.separator {
+  height: 1px;
+  width: calc(100% - 40px);
+  background: rgba(0,0,0,0.2);
+  margin: 20px;
+}
 /* - - - - TYPO - - - - */
 h1,
 h2,
