@@ -12,4 +12,7 @@
   .logo, #navigation {
     width: 100%;
   }
+  .vertical{
+    width: 100%;
+  }
 }
