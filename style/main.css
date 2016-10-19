@@ -126,6 +126,7 @@ li {
 }
 .project-title h4 {
   color: rgba(0,0,0,0.6);
+  padding: 0 !important;
 }
 img {
   border: 1px solid rgba(0,0,0,0.2);
@@ -133,10 +134,14 @@ img {
 .image-area {
   padding: 10px;
 }
-.horizontal {
+.full {
   width: 100%;
 }
-.vertical {
+.half {
+  width: 50%;
+  float: left;
+}
+.third {
   width: 50%;
   float: left;
 }
