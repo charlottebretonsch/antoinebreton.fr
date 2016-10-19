@@ -118,6 +118,7 @@ li {
 }
 .project-glimpse h4 {
   color: rgba(255,255,255,0.6) !important;
+  padding: 0 !important;
 }
 /* Project page */
 .project-title {
@@ -156,12 +157,19 @@ h1,
 .logo {
   font-size: 20px;
 }
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 5px 0 5px;
+}
 h3 {
   font-size: 16px;
   padding: 5px;
 }
 h4 {
   font-size: 14px;
+  padding: 5px;
+  color: rgba(0,0,0,0.5);
 }
 h5 {
   font-size: 12px;
@@ -174,4 +182,7 @@ p {
 }
 li {
   font-size: 16px;
+}
+strong {
+  font-weight: bold;
 }
