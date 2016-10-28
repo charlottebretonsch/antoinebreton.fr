@@ -1,0 +1,30 @@
+extends components/layout.jade
+
+block content
+
+  div(class="row clearfix")
+    div(class="text-area")
+      div(class="project-title")
+        h4 Art
+        h1 Art Plastique
+
+  div(class="row clearfix")
+    div(class="text-area")
+      h3 Projet réalisé pour Albert de Mun
+      p 
+        | Travail sur la dématérialisation, réalisé dans le cours Pratique d’Art Visuel du lycée Albert de Mun, en STI Arts Appliqués.
+        br
+        | Photographie sur scanner, sujet mouvant.
+
+  div(class="row clearfix")
+    div(class="image-area full")
+      img(src="img-content/plastique/image01.jpg" alt="Project image")
+    div(class="image-area full")
+      img(src="img-content/plastique/image02.jpg" alt="Project image")
+    div(class="image-area full")
+      img(src="img-content/plastique/image03.jpg" alt="Project image")
+    div(class="image-area half")
+      img(src="img-content/plastique/image00.jpg" alt="Project image")
+      
+  div(class="separator")
+  include components/projects.jade
